@@ -2,12 +2,12 @@
 layout: post
 title: "The Last Mile to the Future"
 date: 2026-09-03 12:00:00 +0300
-image: /assets/images/last-mile-to-future/cover.png
+image: /assets/images/last-mile-to-future/cover.jpg
 ---
 
 *How the physical world becomes callable.*
 
-![A post-AI world in which human intent connects directly to services, payments and physical execution](/assets/images/last-mile-to-future/cover.png)
+![A post-AI world in which human intent connects directly to services, payments and physical execution](/assets/images/last-mile-to-future/cover.jpg)
 
 *One possible picture of a post-AI world in which human intent connects directly to services, payments and physical execution.*
 
@@ -63,7 +63,7 @@ The striking thing about this scenario is that it does not depend on one breakth
 
 ### Connectivity
 
-Starlink Direct to Cell turns satellites into something much closer to cellular infrastructure in space. Starlink says the system works with existing LTE phones without requiring specialized hardware, firmware changes or special applications. Its 2025 progress report says the first-generation Direct to Cell constellation had been deployed and had connected more than 12 million people at least once.
+[Starlink Direct to Cell](https://www.starlink.com/business/direct-to-cell) turns satellites into something much closer to cellular infrastructure in space. Starlink says the system works with existing LTE phones without requiring specialized hardware, firmware changes or special applications. Its [2025 progress report](https://www.starlink.com/updates) says the first-generation Direct to Cell constellation had been deployed and had connected more than 12 million people at least once.
 
 So the first part of the Sahara scenario — expressing an intent from somewhere far outside normal terrestrial coverage — is increasingly plausible.
 
@@ -71,7 +71,7 @@ So the first part of the Sahara scenario — expressing an intent from somewhere
 
 AI systems are moving beyond answering questions toward performing actions, while new protocols are emerging to let independently built agents work together.
 
-The Agent2Agent protocol, or A2A — originally developed by Google and since donated to the Linux Foundation, where it is now a hosted project of the Agentic AI Foundation — standardizes how agents advertise capabilities, discover one another and exchange tasks even when they are built by different vendors or with different frameworks. In other words, one agent does not necessarily need a custom integration for every other agent it may need to use.
+The [Agent2Agent protocol](https://a2a-protocol.org/), or A2A — originally developed by Google and since [donated to the Linux Foundation](https://developers.googleblog.com/en/google-cloud-donates-a2a-to-linux-foundation/), where it is now a hosted project of the Agentic AI Foundation — standardizes how agents advertise capabilities, discover one another and exchange tasks even when they are built by different vendors or with different frameworks. In other words, one agent does not necessarily need a custom integration for every other agent it may need to use.
 
 That begins to look like a discovery layer for an agentic service economy.
 
@@ -79,11 +79,11 @@ That begins to look like a discovery layer for an agentic service economy.
 
 The seller in the Sahara scenario is also beginning to appear.
 
-Shopify and Google co-developed the Universal Commerce Protocol (UCP), an open standard for interactions between AI agents and merchants. UCP covers operations including product discovery, checkout, payments, orders and fulfillment.
+Shopify and Google co-developed the [Universal Commerce Protocol](https://shopify.engineering/UCP) (UCP), an open standard for interactions between AI agents and merchants. UCP covers operations including product discovery, checkout, payments, orders and fulfillment.
 
-In June 2026, Shopify opened its agentic-commerce infrastructure to the broader developer ecosystem. Its Catalog API exposes structured product information from millions of merchants, while UCP provides a common language for agents to interact with them.
+In June 2026, Shopify [opened its agentic-commerce infrastructure](https://www.shopify.com/news/spring-26-edition-dev) to the broader developer ecosystem. Its Catalog API exposes structured product information from millions of merchants, while UCP provides a common language for agents to interact with them.
 
-OpenAI introduced another approach with Stripe in 2025 through the Agentic Commerce Protocol, designed to allow AI systems and merchants to participate in the purchasing process together.
+OpenAI introduced another approach with Stripe in 2025 through the [Agentic Commerce Protocol](https://stripe.com/newsroom/news/stripe-openai-instant-checkout), designed to allow AI systems and merchants to participate in the purchasing process together.
 
 The important shift is not which protocol eventually wins.
 
@@ -95,7 +95,7 @@ Once software begins spending money, trust becomes a fundamental infrastructure 
 
 How does a merchant know that an AI agent was actually authorized to make a purchase? How does a user give an agent enough authority to act without giving it unrestricted access to their funds?
 
-Google's Agent Payments Protocol (AP2) is an open framework for agent-led transactions across payment systems. Visa is building Intelligent Commerce, Mastercard is building Agent Pay, and Stripe is building infrastructure that allows agents to hold and spend money within defined guardrails.
+Google's [Agent Payments Protocol](https://ap2-protocol.org/) (AP2) is an open framework for agent-led transactions across payment systems. Visa is building [Intelligent Commerce](https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22496.html), Mastercard is building Agent Pay, and Stripe is building infrastructure that allows agents to hold and spend money within defined guardrails.
 
 This suggests a useful principle for personal agents: an agent does not need to know or control all of your funds.
 
@@ -111,7 +111,7 @@ That is very different from giving an AI unrestricted access to a bank account.
 
 The last part of the chain is already moving from laboratory demonstrations into commercial infrastructure.
 
-Wing, an Alphabet company, says it has completed more than one million commercial deliveries across three continents. Its systems are highly automated, businesses can integrate delivery through APIs, and Wing and Walmart are building a network planned to exceed 270 locations.
+[Wing](https://wing.com/news/wing-and-walmart-seven-new-markets-drone-delivery), an Alphabet company, says it has completed more than one million commercial deliveries across three continents. Its systems are highly automated, businesses can integrate delivery through APIs, and Wing and Walmart are building a network planned to exceed 270 locations.
 
 The current service is obviously not a global Sahara delivery network. But the important primitive already exists:
 
@@ -121,7 +121,7 @@ The current service is obviously not a global Sahara delivery network. But the i
 
 A personal agent also does not necessarily need to become a database containing your entire life.
 
-The Solid project proposes personal online data stores, or Pods, in which people control which applications and AI agents may read or modify particular data. Your data can remain separate from the application that acts on it.
+The [Solid project](https://solidproject.org/) proposes personal online data stores, or Pods, in which people control which applications and AI agents may read or modify particular data. Your data can remain separate from the application that acts on it.
 
 That matters because a genuinely personal layer should not require a central platform to know everything about you.
 
