@@ -13,8 +13,14 @@ theme: minima
 
 # Подпись под статьями. Здесь и нигде больше не должно появляться
 # личное имя или логин — см. CLAUDE.md, раздел «Личность».
-author:
-  name: Callable World
+#
+# Строкой, а не вложенным `name:` — тема minima печатает site.author в подвал
+# как есть, и из хеша получается видимый посетителю мусор вида
+# {"name"=>"Callable World"}.
+author: Callable World
+
+# Показывать анонс статьи в списке на главной, а не одни заголовки.
+show_excerpts: true
 
 plugins:
   - jekyll-feed
