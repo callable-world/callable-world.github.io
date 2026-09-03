@@ -27,9 +27,15 @@ plugins:
   - jekyll-seo-tag
 
 # Служебные файлы репозитория не должны попадать в собранный сайт.
+# Без этого Jekyll копирует их в _site как есть, и они отдаются с сайта:
+# publish.sh и tools/ реально висели на https://callable-world.github.io/publish.sh
 exclude:
   - CLAUDE.md
+  - ИНСТРУКЦИЯ.md
   - README.md
+  - publish.sh
+  - preview.sh
+  - tools
   - Gemfile
   - Gemfile.lock
   - vendor
