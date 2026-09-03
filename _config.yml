@@ -1,0 +1,32 @@
+# callable-world.github.io — конфигурация сайта.
+# Собирается штатным Jekyll на стороне GitHub Pages: своего CI нет и не нужно.
+
+title: Callable World
+description: >-
+  Статьи о вызываемом мире.
+lang: ru
+
+url: "https://callable-world.github.io"
+baseurl: ""
+
+theme: minima
+
+# Подпись под статьями. Здесь и нигде больше не должно появляться
+# личное имя или логин — см. CLAUDE.md, раздел «Личность».
+author:
+  name: Callable World
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Служебные файлы репозитория не должны попадать в собранный сайт.
+exclude:
+  - CLAUDE.md
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+
+# Ссылки вида /2026/09/03/nazvanie-stati/
+permalink: /:year/:month/:day/:title/
